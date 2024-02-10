@@ -1,0 +1,45 @@
+.contacts {
+    background: url('/effect.png') no-repeat;
+
+}
+.contact__social {
+    padding: 10px 35px;
+    border-radius: var(--border-radius);
+    border: 1px solid #E8E8EB;
+}
+
+.contact__social {
+    display: flex;
+    align-items: center;
+}
+
+.contact__social span {
+    white-space: nowrap;
+    position: relative;
+    padding-left: 30px
+}
+.contact__social span::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-40%)
+}
+.whatsapp span::before {
+    content: url('/socials/whatsapp.svg');
+    
+}
+.telegram span::before {
+    content: url('/socials/telegram.svg');
+}
+.instagram span::before {
+    content: url('/socials/instagram.svg');
+}
+
+@media (max-width: 620px) {
+    .contacts__socials {
+        flex-direction: column;
+    }
+    .contacts {
+        background-size: cover
+    }
+}

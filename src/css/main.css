@@ -11,6 +11,7 @@
 @import './partials/how-work.css';
 @import './partials/earn-banner.css';
 @import './partials/faq.css';
+@import './partials/footer.css';
 
 @tailwind base;
 @tailwind components;

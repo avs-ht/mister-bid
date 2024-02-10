@@ -2,6 +2,7 @@
     position: relative;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    z-index: 9999;
 }
 
 .burger span,
@@ -39,6 +40,8 @@
 }
 
 .header__mobile-menu {
+    z-index: 9999;
+
     transition: 0.8s;
     
     width: 100vw;
