@@ -1,0 +1,9 @@
+:root {
+    --width-container: 1200px;
+    --padding-container: 20px;
+    --text-primary-color: #2D313E;
+    --button-primary-color: #435EBE;
+    --button-secondary-color: #41BADC;
+    --border-radius: 7px;
+    --font-family: 'Onest'
+}

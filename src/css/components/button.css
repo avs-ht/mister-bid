@@ -1,0 +1,13 @@
+.button {
+    --textColor: #FFF;
+    --bgColor: var(--button-primary-color);
+    color: var(--textColor);
+    background-color: var(--bgColor);
+    font-weight: 600;
+    white-space: nowrap
+    
+}
+
+.button--bgOcean {
+    --bgColor: var(--button-secondary-color);
+}

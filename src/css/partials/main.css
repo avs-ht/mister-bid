@@ -1,0 +1,14 @@
+.main__title {
+    font-size: clamp(1.4rem, 3vw, 2.35rem)
+}
+.main {
+    background: url('/cars.png') no-repeat, url('/effect.png') no-repeat;
+    background-position: 100%, 0%;
+    background-size: 55vw, contain;
+}
+
+@media (max-width: 569px) {
+    .main {
+        background: url('/effect.png') no-repeat;
+    }
+}

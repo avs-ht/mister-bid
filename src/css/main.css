@@ -1,6 +1,37 @@
 @import 'null.css';
 @import 'fonts.css';
+@import 'vars.css';
+
+/* Components*/
+@import './components/button.css';
+
+/* Partials */ 
+@import './partials/header.css';
+@import './partials/main.css';
+@import './partials/how-work.css';
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+[class*='__container'] {
+    max-width: calc(var(--width-container) + var(--padding-container)*2);
+    padding-inline: var(--padding-container);
+    margin-inline: auto; 
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-primary-color);
+}
+
+::-webkit-scrollbar {
+    width: 0
+}
