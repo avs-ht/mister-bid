@@ -3,16 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://avs-ht.github.io/mister-bid",
   "browserslist": [
     "cover 99.5%"
   ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d src/dist"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.0",
