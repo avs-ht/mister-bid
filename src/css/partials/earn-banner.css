@@ -1,0 +1,15 @@
+.earn-banner__content {
+    background: url('/effect2.png') no-repeat;
+    background-size: cover;
+    background-position: 0%, 30%;
+    background-blend-mode: color-dodge;
+}
+.earn-banner__title {
+    font-size: clamp(1.5rem, 2.6vw, 1.875rem)
+}
+@media (max-width: 710px) {
+    .earn-banner__content {
+        flex-direction: column;
+       
+    }
+}
